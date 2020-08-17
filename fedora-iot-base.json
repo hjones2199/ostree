@@ -81,7 +81,7 @@
          "e2fsprogs", "xfsprogs", "dosfstools",
          "gnupg2",
          "basesystem", "python3", "bash",
-         "xz", "gzip", "zram",
+         "xz", "gzip",
          "coreutils", "which", "curl",
          "firewalld", "iptables",
          "NetworkManager", "NetworkManager-wifi", "NetworkManager-wwan",
@@ -124,5 +124,8 @@
 
     "default_target": "multi-user.target",
 
-    "units": ["NetworkManager.service", "firewalld.service", "rngd.service", "sshd.service", "zram-swap.service", "zezere_ignition.timer", "zezere_ignition_banner.service"]
+    "units": ["NetworkManager.service", "firewalld.service", "rngd.service", "sshd.service",
+              "zezere_ignition.timer", "zezere_ignition_banner.service",
+              "greenboot-grub2-set-counter", "greenboot-grub2-set-success", "greenboot-healthcheck", "greenboot-rpm-ostree-grub2-check-fallback",
+              "greenboot-status", "greenboot-task-runner", "redboot-auto-reboot", "edboot-task-runner"]
 }
