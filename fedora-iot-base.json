@@ -107,7 +107,7 @@
          "kernel-tools", "libgpiod-utils",
          "podman", "container-selinux", "skopeo", "criu",
 	 "slirp4netns", "fuse-overlayfs",
-         "clevis", "clevis-dracut", "clevis-luks"],
+         "clevis", "clevis-dracut", "clevis-luks", "clevis-pin-tpm2"],
 
     "packages-aarch64": ["grub2-efi-aa64", "efibootmgr", "shim-aa64",
                          "uboot-tools", "uboot-images-armv8", "bcm283x-firmware",
