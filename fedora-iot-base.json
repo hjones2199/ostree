@@ -103,11 +103,12 @@
          "policycoreutils-python-utils",
          "setools-console",
          "audit", "rng-tools", "chrony",
-         "bluez", "bluez-libs", "bluez-mesh", "wpan-tools",
+         "bluez", "bluez-libs", "bluez-mesh",
          "kernel-tools", "libgpiod-utils",
          "podman", "container-selinux", "skopeo", "criu",
-	 "slirp4netns", "fuse-overlayfs",
-         "clevis", "clevis-dracut", "clevis-luks", "clevis-pin-tpm2"],
+         "slirp4netns", "fuse-overlayfs",
+         "clevis", "clevis-dracut", "clevis-luks", "clevis-pin-tpm2",
+         "parsec", "dbus-parsec"],
 
     "packages-aarch64": ["grub2-efi-aa64", "efibootmgr", "shim-aa64",
                          "uboot-tools", "uboot-images-armv8", "bcm283x-firmware",
@@ -127,5 +128,6 @@
     "units": ["NetworkManager.service", "firewalld.service", "rngd.service", "sshd.service",
               "zezere_ignition.timer", "zezere_ignition_banner.service",
               "greenboot-grub2-set-counter", "greenboot-grub2-set-success", "greenboot-healthcheck", "greenboot-rpm-ostree-grub2-check-fallback",
-              "greenboot-status", "greenboot-task-runner", "redboot-auto-reboot", "edboot-task-runner"]
+              "greenboot-status", "greenboot-task-runner", "redboot-auto-reboot", "edboot-task-runner",
+              "parsec", "dbus-parsec"]
 }
