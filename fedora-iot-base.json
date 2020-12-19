@@ -97,7 +97,7 @@
          "greenboot", "greenboot-grub2", "greenboot-rpm-ostree-grub2", "greenboot-reboot", "greenboot-status",
          "ignition", "zezere-ignition",
          "rsync", "attr",
-         "ima-evm-utils",
+         "ima-evm-utils", "openssl",
          "bash-completion",
          "tmux", "screen",
          "policycoreutils-python-utils",
