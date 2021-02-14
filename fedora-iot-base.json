@@ -96,6 +96,7 @@
 	 "fwupd", "usbguard",
          "greenboot", "greenboot-grub2", "greenboot-rpm-ostree-grub2", "greenboot-reboot", "greenboot-status",
          "ignition", "zezere-ignition",
+         "zram-generator", "zram-generator-defaults",
          "rsync", "attr",
          "ima-evm-utils", "openssl",
          "bash-completion",
