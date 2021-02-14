@@ -10,8 +10,8 @@
 
     "documentation": false,
 
-    "automatic_version_prefix": "34",
-    "mutate-os-release": "34",
+    "automatic_version_prefix": "35",
+    "mutate-os-release": "35",
 
     "initramfs-args": ["--no-hostonly",
                        "--add", "ignition"],
