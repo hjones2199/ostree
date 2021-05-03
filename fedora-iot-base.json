@@ -93,7 +93,7 @@
          "selinux-policy-targeted", "setup", "shadow-utils",
          "sudo", "systemd", "util-linux", "vim-minimal",
          "less", "tar",
-	 "fwupd", "usbguard",
+	 "fwupd", "fwupd-plugin-modem-manager", "usbguard",
          "greenboot", "greenboot-grub2", "greenboot-rpm-ostree-grub2", "greenboot-reboot", "greenboot-status",
          "ignition", "zezere-ignition",
          "zram-generator", "zram-generator-defaults",
