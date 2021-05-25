@@ -93,7 +93,7 @@
          "selinux-policy-targeted", "setup", "shadow-utils",
          "sudo", "systemd", "util-linux", "vim-minimal",
          "less", "tar",
-	 "fwupd", "fwupd-plugin-modem-manager", "fwupd-efi",
+	 "fwupd", "fwupd-plugin-modem-manager",
          "greenboot", "greenboot-grub2", "greenboot-rpm-ostree-grub2", "greenboot-reboot", "greenboot-status",
          "ignition", "zezere-ignition",
          "zram-generator", "zram-generator-defaults",
@@ -111,7 +111,7 @@
          "clevis", "clevis-dracut", "clevis-luks", "clevis-pin-tpm2",
          "parsec", "dbus-parsec"],
 
-    "packages-aarch64": ["grub2-efi-aa64", "efibootmgr", "shim-aa64",
+    "packages-aarch64": ["grub2-efi-aa64", "efibootmgr", "shim-aa64", "fwupd-efi",
                          "uboot-tools", "uboot-images-armv8", "bcm283x-firmware",
                          "arm-image-installer", "iwl7260-firmware"],
 
@@ -119,7 +119,7 @@
                         "uboot-tools", "uboot-images-armv7", "bcm283x-firmware",
                         "arm-image-installer"],
 
-    "packages-x86_64": ["grub2", "grub2-efi-x64", "efibootmgr", "shim-x64", "microcode_ctl",
+    "packages-x86_64": ["grub2", "grub2-efi-x64", "efibootmgr", "shim-x64", "fwupd-efi", "microcode_ctl",
                         "iwl1000-firmware", "iwl100-firmware", "iwl105-firmware", "iwl135-firmware",
                         "iwl2000-firmware", "iwl2030-firmware", "iwl3160-firmware", "iwl5000-firmware",
                         "iwl5150-firmware", "iwl6000-firmware", "iwl6050-firmware", "iwl7260-firmware"],
