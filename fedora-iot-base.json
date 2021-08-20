@@ -107,8 +107,7 @@
          "audit", "rng-tools", "chrony",
          "bluez", "bluez-libs", "bluez-mesh",
          "kernel-tools", "libgpiod-utils",
-         "podman", "podman-plugins", "container-selinux", "skopeo", "criu",
-         "slirp4netns", "fuse-overlayfs",
+         "podman", "podman-plugins", "container-selinux", "skopeo", "criu", "slirp4netns",
          "clevis", "clevis-dracut", "clevis-luks", "clevis-pin-tpm2",
          "parsec", "dbus-parsec"],
 
