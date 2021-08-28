@@ -104,7 +104,7 @@
          "tmux", "screen",
          "policycoreutils-python-utils",
          "setools-console", "usbguard",
-         "audit", "rng-tools", "chrony",
+         "rng-tools", "chrony",
          "bluez", "bluez-libs", "bluez-mesh",
          "kernel-tools", "libgpiod-utils",
          "podman", "podman-plugins", "container-selinux", "skopeo", "criu", "slirp4netns",
