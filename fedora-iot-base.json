@@ -95,7 +95,7 @@
          "systemd", "systemd-resolved",
          "less", "tar",
 	 "fwupd", "fwupd-plugin-modem-manager",
-         "greenboot", "greenboot-grub2", "greenboot-rpm-ostree-grub2", "greenboot-reboot", "greenboot-status",
+         "greenboot", "greenboot-default-health-checks",
          "ignition", "zezere-ignition",
          "zram-generator", "zram-generator-defaults",
          "rsync", "attr",
